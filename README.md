@@ -18,7 +18,10 @@ Rendered frames: $PATH/ProjectName/Render
 
 Finally, I render the video using:
 
-ffmpeg -r 35 -i %d.png -c:v libx264 -preset veryslow -crf 10 Output.mp4
+ffmpeg -r 30 -i %d.png -c:v libx264 -pix_fmt yuv420p d-d.mp4
 
+
+Output:
+https://imgur.com/a/6AJnjDT
 
 
